@@ -51,16 +51,24 @@ Built with Tailwind CSS for a clean, mobile-friendly interface that works on des
 - **Tailwind CSS** – For responsive and utility-first design
 - **Lucide Icons** – For clean, modern iconography
 
-### 🧠 Compression Algorithms
+### Compression Algorithms
 - **Huffman Coding** – A tree-based entropy encoder
 - **Run-Length Encoding (RLE)** – Great for repetitive data
 - **LZ77** – A sliding window-based lossless algorithm
 
 ---
 
-## 🚀 Getting Started Locally
+## Getting Started Locally
 
 1. **Clone the repo**
 ```bash
-git clone https://github.com/Levi1608/compressor.git
-cd compressor
+git clone https://github.com/Levi1608/(https://github.com/Levi1608/Compression-Decompression-Portal-MARS)
+cd Compression-Decompression-Portal-MARS
+npm install
+npm run dev
+
+src/
+├── components/              → UI components (Uploader, Downloader, Stats, etc.)
+├── pages/                   → Main Index.jsx (homepage logic)
+├── utils/                   → Algorithm implementations (huffman.js, rle.js, lz77.js)
+├── App.jsx / main.jsx       → Entry files
